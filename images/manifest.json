@@ -169,6 +169,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://pasitiis.github.io/iiif-test/images/museovirasto2/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "museovirasto2"
+                ]
+            },
+            "height": 2818,
+            "width": 3602,
+            "items": [
+                {
+                    "id": "https://pasitiis.github.io/iiif-test/images/museovirasto2/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://pasitiis.github.io/iiif-test/images/museovirasto2/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://pasitiis.github.io/iiif-test/images/museovirasto2/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 113,
+                                                "height": 89
+                                            },
+                                            {
+                                                "width": 226,
+                                                "height": 177
+                                            },
+                                            {
+                                                "width": 451,
+                                                "height": 353
+                                            },
+                                            {
+                                                "width": 901,
+                                                "height": 705
+                                            },
+                                            {
+                                                "width": 1801,
+                                                "height": 1409
+                                            },
+                                            {
+                                                "width": 3602,
+                                                "height": 2818
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3602,
+                                        "@id": "https://pasitiis.github.io/iiif-test/images/museovirasto2",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2818,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://pasitiis.github.io/iiif-test/images/museovirasto2/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

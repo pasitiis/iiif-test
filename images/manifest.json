@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://pasitiis.github.io/iiif-test/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in pasitiis/iiif-test project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://pasitiis.github.io/iiif-test/images/loviisakm/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "loviisakm"
+                ]
+            },
+            "height": 7087,
+            "width": 5789,
+            "items": [
+                {
+                    "id": "https://pasitiis.github.io/iiif-test/images/loviisakm/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://pasitiis.github.io/iiif-test/images/loviisakm/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://pasitiis.github.io/iiif-test/images/loviisakm/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 181,
+                                                "height": 222
+                                            },
+                                            {
+                                                "width": 362,
+                                                "height": 443
+                                            },
+                                            {
+                                                "width": 724,
+                                                "height": 886
+                                            },
+                                            {
+                                                "width": 1448,
+                                                "height": 1772
+                                            },
+                                            {
+                                                "width": 2895,
+                                                "height": 3544
+                                            },
+                                            {
+                                                "width": 5789,
+                                                "height": 7087
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 5789,
+                                        "@id": "https://pasitiis.github.io/iiif-test/images/loviisakm",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 7087,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://pasitiis.github.io/iiif-test/images/loviisakm/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -6,27 +6,27 @@
   } ],
   "protocol" : "http://iiif.io/api/image",
   "sizes" : [ {
-    "width" : 113,
-    "height" : 89
+    "width" : 116,
+    "height" : 78
   }, {
-    "width" : 226,
-    "height" : 177
+    "width" : 232,
+    "height" : 156
   }, {
-    "width" : 451,
-    "height" : 353
+    "width" : 463,
+    "height" : 311
   }, {
-    "width" : 901,
-    "height" : 705
+    "width" : 925,
+    "height" : 621
   }, {
-    "width" : 1801,
-    "height" : 1409
+    "width" : 1850,
+    "height" : 1241
   }, {
-    "width" : 3602,
-    "height" : 2818
+    "width" : 3699,
+    "height" : 2481
   } ],
   "profile" : "http://iiif.io/api/image/2/level0.json",
-  "width" : 3602,
+  "width" : 3699,
   "@id" : "https://pasitiis.github.io/iiif-test/images/museovirasto",
   "@context" : "http://iiif.io/api/image/2/context.json",
-  "height" : 2818
+  "height" : 2481
 }

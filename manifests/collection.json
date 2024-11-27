@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://pasitiis.github.io/iiif-test/manifests/manifest2.json",
     "label" : "Strömfors ironworks"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://pasitiis.github.io/iiif-test/manifests/manifest.json",
+    "label" : "Strömfors ironworks"
   } ]
 }

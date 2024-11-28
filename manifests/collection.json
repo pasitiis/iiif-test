@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://pasitiis.github.io/iiif-test/manifests/manifest.json",
     "label" : "Strömfors ironworks"
+  }, {
+    "@type" : "sc:Canvas",
+    "@id" : "https://pasitiis.github.io/iiif-test/manifests/testi",
+    "label" : "Ruotsinpyhtää, Strömforsin ruukki"
   } ]
 }

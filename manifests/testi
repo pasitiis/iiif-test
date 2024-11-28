@@ -1,0 +1,21 @@
+{
+  "@id" : "https://pasitiis.github.io/iiif-test/manifests/testi",
+  "@type" : "sc:Canvas",
+  "label" : "Ruotsinpyhtää, Strömforsin ruukki",
+  "width" : 800,
+  "height" : 600,
+  "thumbnail" : "https://mpfinlandrepox.zetcom.app/imagehelper/download?id=949457&size=extra_large&org=43094",
+  "images" : [ {
+    "@id" : "http://example.com/canvas/2/annotation/1",
+    "@type" : "oa:Annotation",
+    "motivation" : "sc:painting",
+    "resource" : {
+      "@id" : "https://mpfinlandrepox.zetcom.app/imagehelper/download?id=949457&size=extra_large&org=43094",
+      "@type" : "dctypes:Image",
+      "format" : "image/jpeg",
+      "width" : 800,
+      "height" : 600
+    },
+    "on" : "http://example.com/canvas/2"
+  } ]
+}

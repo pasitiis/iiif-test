@@ -33,5 +33,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://pasitiis.github.io/iiif-test/manifests/Export",
     "label" : "Ruotsinpyhtää, Strömforsin ruukki"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://pasitiis.github.io/iiif-test/manifests/Export2.json",
+    "label" : "Ruotsinpyhtää, Strömforsin ruukki"
   } ]
 }

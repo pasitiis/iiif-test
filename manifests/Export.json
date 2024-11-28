@@ -1,0 +1,33 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://pasitiis.github.io/iiif-test/manifests/Export.json",
+  "@type" : "sc:Manifest",
+  "label" : "Ruotsinpyhtää, Strömforsin ruukki",
+  "thumbnail" : "https://mpfinlandrepox.zetcom.app/imagehelper/download?id=949457&size=extra_large&org=43094",
+  "sequences" : {
+    "@id" : "http://example.com",
+    "@type" : "sc:Sequence",
+    "label" : "Ruotsinpyhtää, Strömforsin ruukki",
+    "canvases" : {
+      "@id" : "http://example.com/canvas/1",
+      "@type" : "sc:Canvas",
+      "label" : "Ruotsinpyhtää, Strömforsin ruukki",
+      "width" : 800,
+      "height" : 600,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://example.com/canvas/1/annotation/1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mpfinlandrepox.zetcom.app/imagehelper/download?id=949457&size=extra_large&org=43094",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 800,
+          "height" : 600
+        },
+        "on" : "http://example.com/canvas/1"
+      } ]
+    }
+  }
+}

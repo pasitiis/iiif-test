@@ -21,5 +21,9 @@
     "@type" : "sc:Canvas",
     "@id" : "https://pasitiis.github.io/iiif-test/manifests/manifest3.json",
     "label" : "Ruotsinpyhtää, Strömforsin ruukki"
+  }, {
+    "@type" : "sc:Canvas",
+    "@id" : "https://pasitiis.github.io/iiif-test/manifests/Testi",
+    "label" : "Testi"
   } ]
 }
